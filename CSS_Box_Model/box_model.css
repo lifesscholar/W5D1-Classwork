@@ -1,0 +1,39 @@
+div {
+  height: 400px;
+  width: 200px;
+  padding: 50px;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+
+#first-div {
+  background-color: #39cccc;
+  height: auto;
+}
+
+#second-div {
+  background-color: #ff4136;
+  height: auto;
+}
+
+
+p {
+  background-color: #7fdbff;
+}
+
+.image_1_container {
+  width: 200px;
+  height: 600px;
+  background-color: goldenrod;
+}
+
+.image_1_container > img {
+  width: 100%;
+}
+
+.image_2_container {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  background-color: goldenrod;
+}
